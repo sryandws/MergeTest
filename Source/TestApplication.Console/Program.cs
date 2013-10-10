@@ -10,6 +10,7 @@ namespace TestApplication.Console
         static void Main(string[] args)
         {
             System.Console.WriteLine("Test Application");
+            System.Console.WriteLine("Company: {0}", AssemblyInformation.GetAssemblyCompany());
             System.Console.WriteLine("Version: {0}", AssemblyInformation.GetAssemblyVersion());
             System.Console.ReadLine();
         }
