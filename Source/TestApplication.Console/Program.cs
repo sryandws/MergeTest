@@ -9,6 +9,9 @@ namespace TestApplication.Console
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine("Test Application");
+            System.Console.WriteLine("Version: {0}", VersionInformation.GetAssemblyVersion());
+            System.Console.ReadLine();
         }
     }
 }
