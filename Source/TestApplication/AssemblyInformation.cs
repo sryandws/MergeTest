@@ -2,7 +2,7 @@
 
 namespace TestApplication
 {
-    public static class VersionInformation
+    public static class AssemblyInformation
     {
         public static string GetAssemblyVersion()
         {
