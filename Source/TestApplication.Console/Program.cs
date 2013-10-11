@@ -10,7 +10,9 @@ namespace TestApplication.Console
         static void Main(string[] args)
         {
             System.Console.WriteLine("Test Application");
-            System.Console.WriteLine("Version: {0}", VersionInformation.GetAssemblyVersion());
+            System.Console.WriteLine("Company: {0}", AssemblyInformation.GetAssemblyCompany());
+            System.Console.WriteLine("Version: {0}", AssemblyInformation.GetAssemblyVersion());
+            System.Console.WriteLine("Here is an additional line");
             System.Console.ReadLine();
         }
     }
